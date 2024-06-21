@@ -12,7 +12,7 @@ REGOLE
 */
 console.log("***** esercizio 1 *****");
 
-const pets = ['dog', 'cat', 'hamster', 'redfish']
+const pets = ["dog", "cat", "hamster", "redfish"];
 
 for (let i = 0; i < pets.length; i++) {
   console.log(pets[i]);
@@ -39,7 +39,6 @@ console.log(pets);
 */
 console.log("***** esercizio 4 *****");
 
-
 const firstPet = pets.shift();
 pets.push(firstPet);
 console.log(pets);
@@ -51,35 +50,49 @@ console.log("***** esercizio 5 *****");
 
 const cars = [
   {
-    brand: 'Ford',
-    model: 'Fiesta',
-    color: 'red',
-    trims: ['titanium', 'st', 'active'],
+    brand: "Ford",
+    model: "Fiesta",
+    color: "red",
+    trims: ["titanium", "st", "active"],
   },
   {
-    brand: 'Peugeot',
-    model: '208',
-    color: 'blue',
-    trims: ['allure', 'GT'],
+    brand: "Peugeot",
+    model: "208",
+    color: "blue",
+    trims: ["allure", "GT"],
   },
   {
-    brand: 'Volkswagen',
-    model: 'Polo',
-    color: 'black',
-    trims: ['life', 'style', 'r-line'],
+    brand: "Volkswagen",
+    model: "Polo",
+    color: "black",
+    trims: ["life", "style", "r-line"],
   },
-]
+];
+for (let i = 0; i < cars.length; i++) cars[i].licensePlate = "AB123CD";
 
-let licensePlate
+console.log(cars);
+
 /* ESERCIZIO 6
     Scrivi del codice per aggiungere un nuovo oggetto in ultima posizione nell'array "cars", rispettando la struttura degli altri elementi.
     Successivamente, rimuovi l'ultimo elemento della proprietà "trims" da ogni auto.
 */
+console.log("***** esercizio 6 *****");
 
-/* ESERCIZIO 7
+const newCars = {
+  brand: "Toyota",
+  model: "Yaris",
+  color: "white",
+  trims: ["plastic", "dynamic", "Hybrid"],
+};
+
+cars.push(newCars);
+console.log(newCars);
+
+
+/* ESERCIZIO 7;
     Scrivi del codice per salvare il primo elemento della proprietà "trims" di ogni auto nel nuovo array "justTrims", sotto definito.
 */
-const justTrims = []
+const justTrims = [];
 
 /* ESERCIZIO 8
     Cicla l'array "cars" e costruisci un if/else statament per mostrare due diversi messaggi in console. Se la prima lettera della proprietà
@@ -91,11 +104,11 @@ const justTrims = []
 */
 const numericArray = [
   6, 90, 45, 75, 84, 98, 35, 74, 31, 2, 8, 23, 100, 32, 66, 313, 321, 105,
-]
+];
 
 /* ESERCIZIO 10
     Partendo dall'array fornito e utilizzando un costrutto switch, genera un nuovo array composto dalle posizioni di ogni carattere all'interno
     dell'alfabeto italiano.
     es. [f, b, e] --> [6, 2, 5]
 */
-const charactersArray = ['g', 'n', 'u', 'z', 'd']
+const charactersArray = ["g", "n", "u", "z", "d"];
