@@ -134,8 +134,8 @@ const numericArray = [
 ];
 
 let i = 0;
-while (i < numericArray.length && numericArray[i] <= 32) {
-  console.log(numericArray[i]);
+while(numericArray[i] != 32){
+  console.log(numericArray[i])
   i++;
 }
 
@@ -176,7 +176,8 @@ const alphabetItaliano = [
   return position > 0 ? position : null;
 });
 
-console.log(positionsArray);*/
+console.log(positionsArray);
+-riesce anche con questo metodo con indexOf che avevamo visto ieri*/
 
 const positionsArray = [];
 
