@@ -1,3 +1,8 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
 header {
   background-color: #232f3e;
   color: white;
@@ -6,7 +11,6 @@ header {
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
   background-color: #f1f1f1;
   margin: 0%;
   padding: 0%;
@@ -40,9 +44,8 @@ main {
   background-color: #e47911;
   text-align: center;
   width: 100%;
-  padding: 20px 20px 20px 20px;
+  padding: 10px 10px 10px 10px;
   margin-bottom: 20px;
-  margin-right: 50px;
 }
 .holiday-banner p {
   color: rgb(245, 225, 199);
@@ -82,15 +85,25 @@ main {
   bottom: 0;
 }
 .container {
-  display: inline-block;
   background-color: white;
   margin: 20px auto;
   border: 1px solid #ddd;
   width: 100%;
   margin-bottom: 40px;
+  padding: 10px;
+}
+
+.container2 {
+  text-align: center;
 }
 .container img {
+  height: 30em;
+  object-fit: cover;
+  width: 23%;
   display: inline-block;
+  border-radius: 20px;
+  margin: 15px;
+  box-shadow: 8px 10px 35px -15px #000000;
 }
 .container a {
   color: #016881fd; /*cercare colore*/
