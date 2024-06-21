@@ -83,7 +83,6 @@ main {
 
 .perfect-gift {
   padding: 20px;
-  text-align: center;
   background-color: white;
   margin: 10px auto;
   border: 1px solid #ddd;
@@ -91,16 +90,15 @@ main {
   max-width: 1200px;
   text-decoration: none;
 }
-.perfect-gift h3,
 .gifting-game h3,
 .sound-of-cheer h3 {
   font-size: 20px;
   margin-bottom: 20px;
   color: #333;
+  text-align: center;
 }
 .gift-item {
     margin: 10px;
-    text-align: center;
     width: 100%;
     background-color: #fff;
     padding: 10px;
