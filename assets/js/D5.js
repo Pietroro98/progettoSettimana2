@@ -87,7 +87,10 @@ const newCars = {
 
 cars.push(newCars);
 console.log(newCars);
-
+for (let i = 0; i < cars.length; i++) {
+  cars[i].trims.pop();
+}
+console.log(cars);
 
 /* ESERCIZIO 7;
     Scrivi del codice per salvare il primo elemento della proprietà "trims" di ogni auto nel nuovo array "justTrims", sotto definito.
