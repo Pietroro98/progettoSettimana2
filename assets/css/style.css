@@ -89,6 +89,7 @@ main {
   border: 1px solid #ddd;
   border-radius: 8px;
   max-width: 1200px;
+  text-decoration: none;
 }
 .perfect-gift h3,
 .gifting-game h3,
@@ -110,6 +111,7 @@ main {
 .gift-item .img{
     display: inline-block;
 }
+
 footer {
     background-color: #232F3E;
     color: white;
@@ -131,10 +133,8 @@ footer a {
     font-size: 14px;
 }
 
-/*.container1 .container2, .container3, .container4 {
-    display: inline-block;
-}
-.gift-items {
+
+/*.gift-items {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
